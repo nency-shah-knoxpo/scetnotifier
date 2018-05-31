@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.lenovo.scetnotifier.Regestration">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/w2"
+    android:gravity="top|center"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:orientation="vertical"
+    android:alpha=".8"
+    tools:context="com.example.lenovo.scetnotifier.DetailWorkshop">
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="90dp"
+        android:id="@+id/workimage"
+        android:src="@drawable/lazy" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/txtregwork"
+        android:visibility="gone"/>
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Android"
+        android:id="@+id/workname"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="            Learn to develop applications in the latest operating system with practical implementation and begin managing your own cool applications like a professional at this workshop."
+        android:textColor="@color/black"
+        android:id="@+id/workdetails"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/workdate"
+        android:gravity="center"
+        android:text="DATE:14-15 Sept,2017"
+        android:textColor="@color/black"
+        android:layout_marginTop="50dp"
+        android:textSize="16dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/worktime"
+        android:gravity="center"
+        android:text="TIME:8.00 a.m to 3.30 pm"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:textSize="16dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/workvenue"
+        android:gravity="center"
+        android:text="Venue:SCET"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:textSize="16dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp">
+
+
+        <Button
+            android:id="@+id/btnregwork"
+            android:layout_width="125dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/btnstyle"
+            android:gravity="center"
+            android:text="Register"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="30dp"
+            android:shadowColor="@color/lightblack"
+            android:shadowRadius="100"
+            />
+
+        <Button
+            android:id="@+id/btnworkfav"
+            android:layout_width="125dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/btnstyle"
+            android:gravity="center"
+            android:text="Favourite"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="30dp"
+            android:shadowColor="@color/lightblack"
+            android:shadowRadius="100"
+            />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+
+</ScrollView>
+    </LinearLayout>

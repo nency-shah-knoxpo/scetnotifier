@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/y"
+    android:orientation="vertical"
+    tools:context="com.example.lenovo.scetnotifier.Regestration">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="16dp"
+            android:paddingTop="50dp"
+            tools:context="com.example.lenovo.scetnotifier.Regestration">
+
+            <TextView
+
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:gravity="center_horizontal"
+                android:text="Registration"
+                android:textColor="@color/white"
+                android:textSize="35dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Welcome to ScetNotifier.Please Register Yourself here."
+                android:textColor="@color/white"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/FirstName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/white"
+
+                android:layout_marginTop="30dp"
+                android:background="@drawable/txtstyle"
+                android:hint="First Name"
+                android:paddingBottom="10dp"
+                android:paddingLeft="100dp"
+                android:paddingTop="10dp"
+                android:textColorHint="@color/white" />
+
+            <EditText
+                android:id="@+id/LastName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/txtstyle"
+                android:hint="Last Name"
+                android:paddingBottom="10dp"
+                android:paddingLeft="100dp"
+                android:textColor="@color/white"
+
+                android:paddingTop="10dp"
+                android:textColorHint="@color/white" />
+
+            <EditText
+                android:id="@+id/EmailID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/txtstyle"
+                android:hint="Email Address"
+                android:textColor="@color/white"
+
+                android:paddingBottom="10dp"
+                android:paddingLeft="100dp"
+                android:paddingTop="10dp"
+                android:textColorHint="@color/white" />
+
+            <EditText
+                android:id="@+id/pwd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/txtstyle"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:textColor="@color/white"
+
+                android:paddingBottom="10dp"
+                android:paddingLeft="100dp"
+                android:paddingTop="10dp"
+                android:textColorHint="@color/white" />
+
+            <EditText
+                android:id="@+id/Pno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/txtstyle"
+                android:hint="Phone number"
+                android:paddingBottom="10dp"
+                android:paddingLeft="100dp"
+                android:paddingTop="10dp"
+                android:textColor="@color/white"
+                android:inputType="number"
+
+                android:textColorHint="@color/white" />
+
+            <EditText
+                android:id="@+id/Cgpa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+
+                android:background="@drawable/txtstyle"
+                android:hint="CGPA"
+                android:paddingBottom="10dp"
+                android:paddingLeft="100dp"
+                android:textColor="@color/white"
+
+                android:paddingTop="10dp"
+                android:inputType="numberDecimal"
+                android:textColorHint="@color/white" />
+
+
+
+            <Spinner
+
+                android:id="@+id/spinnerDept"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/txtstyle"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+
+                android:paddingLeft="100dp"
+                android:paddingTop="10dp"></Spinner>
+
+            <Spinner
+                android:id="@+id/spinnerYear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/txtstyle"
+                android:paddingBottom="10dp"
+                android:paddingLeft="100dp"
+                android:textColor="@color/white"
+
+                android:paddingTop="10dp"></Spinner>
+
+
+
+
+            <Button
+                android:id="@+id/btnreg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/btnstyle"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:text="Register"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

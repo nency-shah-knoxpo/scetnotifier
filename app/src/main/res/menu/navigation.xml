@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/hw"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_event"
+            android:icon="@drawable/eve"
+            android:title="Events" />
+        <item
+            android:id="@+id/nav_Workshop"
+            android:icon="@drawable/work"
+            android:title="Workshops" />
+
+        <item
+            android:id="@+id/nav_jobs"
+            android:icon="@drawable/jobb"
+            android:title="Jobs" />
+
+       <!-- <item
+            android:id="@+id/nav_sports"
+            android:icon="@drawable/sport2"
+            android:title="Sports" />-->
+
+
+    </group>
+
+    <item android:title="User">
+        <menu>
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/acc"
+                android:title="My Acccount" />
+
+            <item
+                android:id="@+id/nav_fav"
+                android:icon="@drawable/fav2"
+                android:title="Favourites" />
+            <item
+                android:id="@+id/nav_chngpwd"
+                android:icon="@drawable/chp"
+                android:title="Change Password" />
+
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_power_settings_new_black_18dp"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+    <item android:title="Other">
+        <menu>
+
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/feed"
+                android:title="Feedback" />
+            <item
+                android:id="@+id/nav_about_us"
+                android:icon="@drawable/abus"
+                android:title="About Us" />
+        </menu>
+    </item>
+</menu>
+
+
+

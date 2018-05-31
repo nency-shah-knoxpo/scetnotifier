@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "136490983069",
+    "firebase_url": "https://scetnotifier-219fc.firebaseio.com",
+    "project_id": "scetnotifier-219fc",
+    "storage_bucket": "scetnotifier-219fc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:136490983069:android:834593644c27e27d",
+        "android_client_info": {
+          "package_name": "com.example.lenovo.scetnotifier"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "136490983069-mpbkccredunsvp3cu9hp7r5bfjpp1rgf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8XnMLKq2bB2lK0HZXeSrAEW5TLLEE9a8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

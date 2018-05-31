@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">ScetNotifier</string>
+    <string-array name="arrDept">
+        <item>Select Your Department</item>
+        <item>Information Technology</item>
+        <item>Computer Engineering</item>
+        <item>Chemical Engineering</item>
+        <item>Electrical Engineering</item>
+        <item>Civil Engineering</item>
+        <item>Mechanical Engineering</item>
+        <item>Instrumentation and control</item>
+    </string-array>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="Email">nencyshah96@gmail.com</string>
+    <string name="url">http://192.168.43.148/snWebServices/SNWebService.asmx</string>
+    <string name="imgconcat">"http://192.168.43.148/scetnotifier"</string>
+
+    <string name="StudentID">StudentID</string>
+    <string-array name="arrYear">
+        <item>Select Your year</item>
+        <item>1st Year</item>
+        <item>2nd Year</item>
+        <item>3rd Year</item>
+        <item>4th Year</item>
+
+    </string-array>
+    <string name="title_activity_drawerdemo">drawerdemo</string>
+
+    <string name="action_settings">Settings</string>
+
+</resources>
